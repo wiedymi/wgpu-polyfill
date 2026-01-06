@@ -1,5 +1,5 @@
 {
-  "name": "webgpu-polyfill",
+  "name": "wgpu-polyfill",
   "version": "0.1.0",
   "description": "WebGPU polyfill for headless testing in Bun using wgpu-native. Enables GPU computing and rendering without a browser.",
   "type": "module",
@@ -41,12 +41,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wiedymi/webgpu-polyfill.git"
+    "url": "git+https://github.com/wiedymi/wgpu-polyfill.git"
   },
   "bugs": {
-    "url": "https://github.com/wiedymi/webgpu-polyfill/issues"
+    "url": "https://github.com/wiedymi/wgpu-polyfill/issues"
   },
-  "homepage": "https://github.com/wiedymi/webgpu-polyfill#readme",
+  "homepage": "https://github.com/wiedymi/wgpu-polyfill#readme",
   "engines": {
     "bun": ">=1.0.0"
   },

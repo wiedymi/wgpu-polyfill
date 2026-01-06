@@ -1,4 +1,4 @@
-# webgpu-polyfill
+# wgpu-polyfill
 
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/wiedymi)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/wiedymi)
@@ -14,13 +14,13 @@ A WebGPU implementation for Bun using wgpu-native, enabling headless GPU computi
 ## Installation
 
 ```bash
-bun add webgpu-polyfill
+bun add wgpu-polyfill
 ```
 
 ## Quick Start
 
 ```typescript
-import { installPolyfill } from "webgpu-polyfill";
+import { installPolyfill } from "wgpu-polyfill";
 
 // Install the polyfill
 installPolyfill();
@@ -109,7 +109,7 @@ const GPUColorWrite: { RED, GREEN, BLUE, ALPHA, ALL };
 ### Compute Shader
 
 ```typescript
-import { installPolyfill, GPUBufferUsage } from "webgpu-polyfill";
+import { installPolyfill, GPUBufferUsage } from "wgpu-polyfill";
 
 installPolyfill();
 
@@ -160,7 +160,7 @@ device.queue.submit([encoder.finish()]);
 ### Render to Texture
 
 ```typescript
-import { installPolyfill, GPUTextureUsage, GPUBufferUsage } from "webgpu-polyfill";
+import { installPolyfill, GPUTextureUsage, GPUBufferUsage } from "wgpu-polyfill";
 
 installPolyfill();
 
